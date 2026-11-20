@@ -1,0 +1,18 @@
+*{box-sizing:border-box;}
+body{margin:0;padding:20px;font-family:"Times New Roman",serif;}
+.wrapper{
+  display:flex;
+  width:600px;
+  height:360px;
+  margin:0 auto;
+}
+nav{width:20%;background-color:pink;padding:12px;}
+.kanan{
+  display:flex;
+  flex-direction:column;
+  flex:1;
+}
+header, footer{background-color:#f0e68c;padding:12px;height:40px;}
+.isi{display:flex;flex:1;}
+article{flex:1;background-color:#fff;padding:12px;}
+aside{width:25%;background-color:cyan;padding:12px;}

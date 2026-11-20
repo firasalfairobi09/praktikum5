@@ -1,0 +1,22 @@
+*{box-sizing:border-box;}
+body{margin:0;padding:20px;font-family:"Times New Roman",serif;}
+.wrapper{
+  display:flex;
+  flex-direction:column;
+  width:600px;
+  height:360px;
+  margin:0 auto;
+}
+header, footer{
+  background-color:#f0e68c;
+  padding:12px;
+  height:40px;
+}
+.isi{
+  display:flex;
+  flex:1;
+}
+article{flex:1;padding:12px;background-color:#fff;}
+aside{width:20%;padding:12px;background-color:pink;}
+nav{width:20%;padding:12px;background-color:#00dcc8;}
+footer{margin-top:auto;}

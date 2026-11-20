@@ -1,0 +1,28 @@
+*{box-sizing:border-box;}
+body{margin:0;padding:20px;}
+.wrapper{width:600px;margin:0 auto;}
+.header{
+  height:60px;
+  background-color:#aede90;
+  border:1px solid #333;
+  margin-bottom:30px;
+}
+.baris{
+  overflow:hidden;      /* clearfix untuk float */
+  margin-bottom:12px;
+}
+.kecil{
+  float:left;
+  width:120px;
+  height:100px;
+  background-color:#f4e842;
+  border:1px solid #333;
+}
+.besar{
+  float:right;
+  width:450px;
+  height:100px;
+  border:1px solid #333;
+}
+.oranye{background-color:#ff6624;}
+.biru{background-color:#4dd8fb;}
